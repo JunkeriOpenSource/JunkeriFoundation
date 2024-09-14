@@ -7,5 +7,5 @@
 
 import Foundation
 
-typealias AnyParams = [String: Any]
-typealias ApiTypeParams<T: Codable> = [String: T]
+public typealias AnyParams = [String: Any]
+public typealias ApiTypeParams<T: Codable> = [String: T]
